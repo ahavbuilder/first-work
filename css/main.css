@@ -1,107 +1,51 @@
-*,
-*:before,
-*:after{
-    box-sizing: border-box;
+@font-face { 
+	font-family: 'roboto';
+	src: url('../fonts/RobotoCondensed-Bold.ttf') format('ttf');
+	font-weight: bold;
+	font-style: normal;
 }
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-.container{
-    width: 100%;
-    max-width:1200px;
-    margin: 0 auto;
-}
-/* intro */
-.intro{
-    width: 100%;
-    height: 100vh;
-    background: url("../img/image2.png") center no-repeat;
-    background-size: cover;
-}
-.intro_inner{
-    width: 100%;
-    max-width: 718px;
-    margin: 0 auto;
-    text-align: center;
-}
-.intro_title{
-    color:#fff;
-    font-size: 100px;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 1;
-    
-}
-p::before{
-    content: "";
-    width: 20px;
-    height: 1px;
-    background-color: #fff;
-    display: inline-block;
-    vertical-align: middle;
-    
-}
-p{
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-}
-/* header */
-.header{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    padding-top: 30px;
-}
-.header_inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.header_logo{
-    font-size: 30px;
-    color: #fff;
-}
-/* nav */
-.nav{
-    font-size: 14px;
-    text-transform: uppercase;
-}
-.nav_link{
-    color:#fff;
-    vertical-align: top;
-    margin:0 15px;
-    text-decoration: none;
-    transition: color 0.2s linear;
-}
-.nav_link btn{
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px 15px;
 
-    
-    color:#fff;
-    text-transform: uppercase;
-    text-decoration: none;
-     background-color:#00B2FF;
+@font-face { 
+	font-family: 'roboto';
+	src: url('../fonts/PTMono-Regular.ttf') format('ttf');
+	font-weight: 400;
+	font-style: normal;
+}	
+@font-face { 
+	font-family: 'roboto';
+	src: url('../fonts/Roboto-Medium.ttf') format('ttf');
+	font-weight: medium;
+	font-style: normal;
+}
+	 
 
+.clearfix:after {
+	content		: ".";
+	visibility	: hidden;
+	display		: block;
+	height		: 0;
+	clear		: both;
 }
-.nav_link:hover{
-    color: #fce38a;
+
+.brain_logo{
+    display: block;
+    float: left;
+    margin-left: 251px;
+    margin-top: 12px;
 }
-/* button */
-.btn{
+    
+
+.smart_text{
     display: inline-block;
-    vertical-align: top;
-    padding: 10px 15px;
-
-    
-    color:#fff;
-    text-transform: uppercase;
-    text-decoration: none;
-     background-color:#00B2FF;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    margin: 15px 0px 0px 13px;
+    width: 214px;
 }
+    
+
+
+
