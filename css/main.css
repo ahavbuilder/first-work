@@ -45,6 +45,20 @@
     margin: 15px 0px 0px 13px;
     width: 214px;
 }
+.menu{
+	margin-left: 1145px;
+	display: flex;
+    justify-content: flex-end;
+    margin-top: -456px;
+    padding: 282px;
+}
+.mail{
+	width: 764px;
+}
+.phone{
+	flex-grow: 23;
+}
+
     
 
 
