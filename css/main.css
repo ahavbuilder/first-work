@@ -1,12 +1,12 @@
 @font-face { 
-	font-family: 'roboto';
+	font-family: 'roboto_bold';
 	src: url('../fonts/RobotoCondensed-Bold.ttf') format('ttf');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face { 
-	font-family: 'roboto';
+	font-family: 'roboto_normal';
 	src: url('../fonts/PTMono-Regular.ttf') format('ttf');
 	font-weight: 400;
 	font-style: normal;
@@ -26,13 +26,28 @@
 	height		: 0;
 	clear		: both;
 }
-
-.brain_logo{
-    display: block;
-    float: left;
-    margin-left: 251px;
-    margin-top: 12px;
+header{
+	width: 100%;
+	min-height: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
+
+.wrapper{
+	width: 1400px;
+    margin-right: auto;
+	margin-left: auto;
+	display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.brain_logo{
+    float: left;
+    display: block;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
     
 
 .smart_text{
@@ -46,20 +61,14 @@
     width: 214px;
 }
 .menu{
-	margin-left: 1145px;
+	width: 700px;
 	display: flex;
     justify-content: flex-end;
-    margin-top: -456px;
-    padding: 282px;
+	flex-flow: row wrap;
+
+
+
 }
-.mail{
-	width: 764px;
+.main_pic{
+	margin-left: 721px;
 }
-.phone{
-	flex-grow: 23;
-}
-
-    
-
-
-
